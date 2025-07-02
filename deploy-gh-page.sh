@@ -19,7 +19,7 @@ echo "Initializing a new Git repository..."
 git init
 
 # Add the remote origin (replace with your actual remote URL)
-REMOTE_URL=git@github.com-laurentmmeyer:laurentmmeyer/ghostscript-pdf-compress.wasm.git
+REMOTE_URL=https://github.com/seastian/ghostscript-pdf-compress.wasm.git
 git remote add origin "$REMOTE_URL"
 
 # Add all build files to git
